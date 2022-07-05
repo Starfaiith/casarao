@@ -1,17 +1,18 @@
+import React from 'react'
 import logo from '../casarao-bg.jpg'
 const sobre = () => {
 
     return(
     <section id="about">
-        <div class="about container">
-            <div class="col-left">
-                <div class="about-img">
+        <div className="about container">
+            <div className="col-left">
+                <div className="about-img">
                     <img src={logo} alt="Imagem 2" />
                 </div>
             </div>
 
-            <div class="col-right">
-                <h1 class="oficina-title">A Casa de <span>Cultura</span></h1>
+            <div className="col-right">
+                <h1 className="oficina-title">A Casa de <span>Cultura</span></h1>
                 <h2>Lorem ipsum dolor sit amet</h2>
                 <p>consectetur adipiscing elit. Cras mauris odio, feugiat a eleifend
                     quis, commodo quis neque. Ut rutrum rhoncus lacus sed luctus. Etiam vestibulum nunc risus,

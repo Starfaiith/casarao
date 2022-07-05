@@ -1,3 +1,5 @@
+import React from 'react'
+
 const oficinas = () => {
 
     return (
@@ -28,7 +30,7 @@ const Oficinaitem = () => {
 
     return(
     <div className="oficina-item">
-            <div class='icon'>
+            <div className='icon'>
                 <img src="https://img.icons8.com/bubbles/50/000000/gear.png" alt='gear img' />
             </div>
             <h2>Oficinas</h2>

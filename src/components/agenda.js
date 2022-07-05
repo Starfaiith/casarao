@@ -1,14 +1,15 @@
+import React from 'react'
 import logo from '../code.jfif';
 const agenda = () => {
 
 
     return(
         <section id="agenda">
-        <div class="agendas container">
-            <div class="agenda-header">
-                <h1 class="oficina-title">Agenda de <span>Eventos</span></h1>
+        <div className="agendas container">
+            <div className="agenda-header">
+                <h1 className="oficina-title">Agenda de <span>Eventos</span></h1>
             </div>
-            <div class="allprojects">
+            <div className="allprojects">
                 
                 <ProjectItem />
                 <ProjectItem />
@@ -25,8 +26,8 @@ const agenda = () => {
 const ProjectItem = () => {
 
     return (
-        <div class="project-item">
-            <div class="project-info">
+        <div className="project-item">
+            <div className="project-info">
                 <h1>Evento 1</h1>
                 <h2>30/06</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mauris odio, feugiat a eleifend
@@ -34,8 +35,8 @@ const ProjectItem = () => {
                     eget pulvinar tellus dignissim eget.
                     </p>
             </div>
-            <div class="project-img">
-            <img src={logo}alt="project img" />
+            <div className="project-img">
+            <img src={logo} alt="project" />
             </div>
         </div>
             

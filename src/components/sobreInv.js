@@ -1,16 +1,17 @@
+import React from 'react'
 import logo from '../casarao-bg.jpg'
 
 const sobreInv = () => {
     return (
         <section id="about">
-        <div class="about-inverted container">
-            <div class="col-left-inverted">
-                <div class="about-img-inverted">
+        <div className="about-inverted container">
+            <div className="col-left-inverted">
+                <div className="about-img-inverted">
                     <img src={logo} alt="Imagem 2" />
                 </div>
             </div>
-            <div class="col-right-inverted">
-                <h1 class="oficina-title">H<span>istória</span></h1>
+            <div className="col-right-inverted">
+                <h1 className="oficina-title">H<span>istória</span></h1>
                 <h2>Lorem ipsum dolor sit amet</h2>
                 <p>consectetur adipiscing elit. Cras mauris odio, feugiat a eleifend
                     quis, commodo quis neque. Ut rutrum rhoncus lacus sed luctus. Etiam vestibulum nunc risus,

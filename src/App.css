@@ -1,6 +1,6 @@
 
 html {
-  font-size: 9.5px;
+  font-size: 12px;
   font-family: 'Open Sans', sans-serif; 
 }
 
@@ -579,7 +579,7 @@ p {
   }
 
   #about .about-inverted {
-      flex-direction: row-reverse;
+      flex-direction: row;
   }
 
   #about .col-right-inverted {
