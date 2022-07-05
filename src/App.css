@@ -82,7 +82,7 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url('casarao-bg.jpg');
+  background-image: url('assets/casarao-bg.jpg');
   background-size: cover;
   background-position: top-center;
   position: relative;
@@ -178,7 +178,7 @@ p {
   justify-content: center;
   flex-direction: column;
   padding: 30px;
-  background-image: url('casarao-bg.jpg');
+  background-image: url('assets/casarao-bg.jpg');
   background-size: cover;
   margin: 10px 5%;
   position: relative;

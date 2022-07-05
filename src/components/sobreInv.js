@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../casarao-bg.jpg'
+import logo from '../assets/casarao-bg.jpg'
 
 const sobreInv = () => {
     return (

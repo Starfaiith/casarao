@@ -1,14 +1,9 @@
-import React from "react";
-import {Outlet} from "react-router-dom" ;
+import React from 'react'
 
-function Acervo() {
+const acervo = () => {
   return (
-    <div className="Acervo">
-      <h1>Hello World</h1>
-
-      <Outlet />
-    </div>
-  );
+    <div>acervo</div>
+  )
 }
 
-export default Acervo;
+export default acervo
